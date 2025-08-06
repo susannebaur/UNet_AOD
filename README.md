@@ -19,7 +19,7 @@ UNET_AOD/
     ├── test_model.py # Run the model with some test data
     ├── plot_predicted_putput.ipynb # Plot the fit of the test result
     ├── model_performance_G6sulfur_91-92.ipynb # visualize the performance metrics of a test run on G6sulfur data
-    ├── model_performance_volc-eruptions.ipynb # visualize the perforamnce metrics of a test run on volcanic eruptions
+    └── model_performance_volc-eruptions.ipynb # visualize the perforamnce metrics of a test run on volcanic eruptions
 ```
 
 ## Getting started
@@ -49,7 +49,10 @@ UNET_AOD/
     Jupyter notebook to visually check the fit and calculate performance metrics:
     plot_predicted_output.ipynb
     Jupyter notebook to visualize the performance metrics
+    ```
     model_performance_G6sulfur_91-92.ipynb
+    ```
     or
+    ```
     model_performance_volc-eruptions.ipynb
-
+    ```

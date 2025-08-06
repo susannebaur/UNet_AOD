@@ -1,7 +1,7 @@
 # UNET_AOD
 Python scipts for predicting stratospheric Aerosol Optical Depth (AOD) using GCM output and a 1D UNet deep learning architecture
 
-The UNet is trained on stratospheric AOD from volcanic eruptions and is tested on solar geoeningeering experiment G6sulfur
+The UNet is trained on stratospheric AOD from CMIP historical volcanic eruptions and is tested on solar geoeningeering GeoMIP experiment G6sulfur
 
 ## Contents
 ```

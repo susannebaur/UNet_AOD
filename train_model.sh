@@ -4,8 +4,8 @@
 
 set -x 
 
-SET_ID_MODULE="set_ID_HAL_adv"
-MODEL_SCRIPT_MODULE="model_script_HAL_1D_adv_skip"
+SET_ID_MODULE="config"
+MODEL_SCRIPT_MODULE="model"
 
 #############################
 

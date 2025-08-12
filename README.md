@@ -33,6 +33,8 @@ UNET_AOD/
     pip install -r requirements.txt
     ```
 3. Adjust settings and paramters in the config.py file
+
+Run on HAL (with GPU)
 4. Run the data processing script
     ```bash
     ./prepro_data.sh
@@ -41,7 +43,10 @@ UNET_AOD/
     ```bash
     ./train_model.sh
     ```
-6. Test the model fit (no GPUs needed)
+(Note: I have all scripts on spirit and run them on HAL by submitting a batch job - example script to submit job is job.slurm)
+
+Run on spirit (with CPU)
+6. Test the model fit 
     Test the UNet model (test configurations are set in config.py)
     ```
     python test_model.py

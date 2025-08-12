@@ -31,7 +31,8 @@
 # The error and the output logs can be merged into the same file.
 # %j is the job id.
 #SBATCH --error=/home/sbaur/jobs/job-data_prep-%j.log
-#SBATCH --output=/home/sbaur/jobs/job-data_prep-%j.log
+#SBATCH --error=/path/to/jobs/job-data_prep-%j.log   # <-- Update this path to your jobs directory
+#SBATCH --output=/path/to/jobs/job-data_prep-%j.log  # <-- Update this path to your jobs directory
 
 # Overtakes the system memory limits.
 ulimit -s unlimited

@@ -6,7 +6,7 @@
 # Warning: the environment variables, e.g. $HOME,
 # are not interpreted for the SBATCH instructions.
 # Writing absolute paths is recommended.
-#SBATCH --chdir=/home/sbaur/jobs/
+#SBATCH --chdir=/home/USERNAME/jobs/   # <-- Replace USERNAME with your own username
 
 # The job partition (maximum elapsed time of the job).
 #SBATCH --partition=batch

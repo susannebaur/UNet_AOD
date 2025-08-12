@@ -24,7 +24,7 @@
 #SBATCH --time=48:00:00
 
 # Email notifications (e.g., the beginning and the end of the job).
-#SBATCH --mail-user=susanne.baur@meteo.fr
+#SBATCH --mail-user=your.email@meteo.fr
 #SBATCH --mail-type=all
 
 # The path of the job log files.
